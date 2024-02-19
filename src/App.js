@@ -239,8 +239,6 @@ const Validation=(values)=>{
   return (
     <div className="App">
        <Nav/>
-       
-
        <Routes>
         <Route path='/'element={<Home/>}/>
         <Route path='/about'element={<About/>}/>
@@ -253,9 +251,6 @@ const Validation=(values)=>{
         data={data}
         filtered={filtered}
     
-        
-      
-     
       />}/>
         <Route path='/signin'element={<SignIn
         formErrors={formErrors}
