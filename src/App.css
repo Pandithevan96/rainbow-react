@@ -1,38 +1,243 @@
 .App {
-  text-align: center;
+text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body{
+  width: 100%;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image:linear-gradient(rgba(20,0,0,0.75),rgba(20,0,0,0.75)),url("http://www.pixelstalk.net/wp-content/uploads/2016/06/Download-pink-Flower-wallpapers-hd.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact label{
+  display: inline-block;
+  width: 80%;
+}
+.contact p{
+color:#A6A6A6;
+}
+#fb,#ins,#whapp{
+  transition: 0.5s;
+}
+#fb:hover{
+  color: #274073;
+}
+#ins:hover{
+  color: #D9736A;
+}
+#whapp:hover{
+  color: #448C11;
+}
+.com{
+  margin-top: 15px;
+}
+.custext{
+  -webkit-text-stroke:1px  #282c34;
+  color: transparent;
+  /* background: linear-gradient(45deg,#F28177,#F23041); */
+  background: url('http://s1.bwallpapers.com/wallpapers/2014/01/20/roses-1080p_111104316.jpg');
+  background-position: center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;  
+  font-family: 'Protest Riot', sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 0 0 25px rgba(15,5,0,0.5);
+}
+.bsw{
+  box-shadow: 2px 3px 10px -2px rgba(0,0,0,0.5);
+}
+.bsw2{
+  box-shadow: 0 0 20px 10px  rgba(199,36,100,0.5);
+}
+.bsw3{
+  box-shadow: 0 0 20px 10px  rgba(222,222,180,0.5);
+}
+.bgcus{
+    background: linear-gradient(135deg,#F28177,#F23041);
+}
+.fb{
+  color:#274073;
+}
+.ins{
+  color:#D9736A;
+}
+.whapp{
+  color:#448C11;
+}
+.fsc{
+font-family: 'Roboto', sans-serif;
+font-size: 1.1em;
+}
+#cusround{
+  border-radius: 5px 0 0 5px ;
+}
+#cusbtn{
+  border-radius: 0 5px 5px 0 ;
+}
+.cusbtn2{
+  border-radius: 0 5px 5px 0 ;
+  padding: 5px 18px;
+  font-size: 1.1rem;
+  border: 2px solid #F28177;
+  background: transparent;
+  color: #A6A6A6;
+  border-radius: 15px;
+}
+.cusbtn3{
+  border-radius: 0 5px 5px 0 ;
+  padding: 5px 18px;
+  font-size: 1.1rem;
+  border: none;
+  background: linear-gradient(45deg,#F28177,#F23041);
+  color: #262626;
+  font-weight: bold;
+  border-radius: 15px;
+  transition: 0.6s;
+}
+.cusbtn3:hover{
+  transform: scale(1.05);
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: help;
+}
+.hl{
+  text-align: left; 
+}
+.mxcus{
+  margin: 0 140px;
+}
+.c>div{
+  margin: 0 20px;
+}
+.formcont{
+  width: 30%;
+}
+.feat{
+  text-align: left;
+  font-size: 1.22rem;
+  color: #D9C39A;
+font-family: 'Roboto', sans-serif;
+
+}
+#fa{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.cont1{
+  height: 100vh;
+  background-image:linear-gradient(rgba(20,0,0,0.75),rgba(20,0,0,0.75)),url("http://www.pixelstalk.net/wp-content/uploads/2016/06/Download-pink-Flower-wallpapers-hd.jpg");
+}
+.h{
+  height: 100vh;
+}
+.txt{
+  color: #A6A6A6;
+}
+.h2fst{
+  width: 100%;
+  height: 120px;
+  color: #D9D9D9;
+  font-family: 'Protest Riot', sans-serif;
+  display: grid;
+  place-items: center;
+  background-color:transparent;
+  border-radius: 50px 0 50px;
+  border: 2px solid #034040;
+  box-shadow: 0 12px 15px rgba(0,0,0,0.5);
+
+}
+.btncus1{
+  background: transparent;
+  color: #F2911B;
+  border-radius: 25px;
+  border: 1px solid #F2911B;
+  padding: 10px 15px;
+  transition: 1s;
+ font-weight: bold;
+ position: relative;
+ overflow: hidden;
+ z-index: 1;
+}
+.btncus1::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+ background:#F2911B;
+ color: #282c34;
+ width: 0;
+ height: 100%;
+ transition: 1s;
+ z-index: -1;
+}
+.btncus1:hover::before{
+ width: 100%;
+}
+.btncus1:hover{
+  color: #262626;
+ 
+}
+#inp1,#inp2{
+  position: relative;
+}
+#usericon,#lockicon{
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  z-index: 1;
+  color: #262626;
+}
+.formsupcont{
+  width: 50%;
+}
+#exc{
+  background: #F2911B;
+  margin-right: 8px;
+  font-size: 2em;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.cart{
+  width: 550px;
+  height: 230px;
+}
+#nav:hover{
+  color: #282c34!important;
+}
+.itemname{
+  width: 180px;
+}
+.cart>div{
+  margin-top: 10px;
+}
+#qty{
+  width: 50px;
+  padding: 5px 7px;
+}
+.sidebar{
+  width: 350px;
+  height:280px;
+  
+}
+@media screen and (max-width:768px) {
+  .h2fst{
+    font-size: 1.1em;
+  }
+  .mxcus{
+    margin: 0;
+  }
+  .formcont{
+    width: 90%;
+  }
+  .formsupcont{
+    width: 90%;
+  }
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
