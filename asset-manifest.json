@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Pandithevan96/rainbow-react/static/css/main.deceec90.css",
+    "main.js": "/Pandithevan96/rainbow-react/static/js/main.d1792e12.js",
+    "static/js/592.cfe6577b.chunk.js": "/Pandithevan96/rainbow-react/static/js/592.cfe6577b.chunk.js",
+    "static/media/logo.svg": "/Pandithevan96/rainbow-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Pandithevan96/rainbow-react/index.html",
+    "main.deceec90.css.map": "/Pandithevan96/rainbow-react/static/css/main.deceec90.css.map",
+    "main.d1792e12.js.map": "/Pandithevan96/rainbow-react/static/js/main.d1792e12.js.map",
+    "592.cfe6577b.chunk.js.map": "/Pandithevan96/rainbow-react/static/js/592.cfe6577b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deceec90.css",
+    "static/js/main.d1792e12.js"
+  ]
+}
