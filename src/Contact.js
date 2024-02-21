@@ -13,12 +13,12 @@ import { FaArrowRight } from 'react-icons/fa'
 const Contact = () => {
   return (
     <div className='d-lg-flex justify-content-evenly text-light align-items-center h'>
-      <div className=''>
+      <div className='mb-3'>
         <h3 className='text-light '>Reach Us</h3>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58450930.004023336!2d-160.81837211026735!3d26.598438362397943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c67ec9ee640bf%3A0x9fab613767018c83!2sRainbow%20Gardens!5e0!3m2!1sen!2sin!4v1707671021211!5m2!1sen!2sin" width="340" height="340" className=' bsw rounded-2 '></iframe>
 </div>
 
-<div className='contact '>
+<div className='contact mb-5 '>
       <h3 className=''>Office</h3>
       <div className='com'>
       <label htmlFor="">Phone No:</label>
