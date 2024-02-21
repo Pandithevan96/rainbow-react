@@ -154,7 +154,7 @@ const [submit,setSubmit]=useState({})
 const [isSubmit,setIsSubmit]=useState(false)
 const [add,setAdd]=useState([])
 const [count,setCount]=useState(0)
-const [mutiple,setMultiple]=useState(0)
+const [mutiple,setMultiple]=useState(data.price)
 
 
 const handleDelete=(id)=>{
@@ -169,7 +169,7 @@ const filtered=data.filter((item)=>{
  
   return item.name.toLowerCase().includes(search)
    }).map((item)=>(
-    <Card style={{ width: '18rem' }} className='mx-2 my-5'>
+    <Card style={{ width: '18rem' }} className='mx-2 my-3'>
    <Card.Img variant="top" src={item.image} height="200" />
    <Card.Body>
      <Card.Title>{item.name}</Card.Title>
@@ -209,7 +209,7 @@ const Validation=(values)=>{
     errors.password="❕ Password cannot exceed more than 10 characters"
   }
   if(!values.password2){
-     errors.password2="❕ Password 2 is Required"
+     errors.password2="❕ Password  is Required"
   }else if(values.password2.length<4){
     errors.password2="❕ Password must be more than 4 characters"
   }else if(values.password2.length>10){
@@ -265,6 +265,7 @@ const Validation=(values)=>{
         <Route path='/contact'element={<Contact/>}/>
         <Route path='/cart'element={<Cart
        add={add}
+       setAdd={setAdd}
        item={filtered.item}
        filtered={filtered}
        multiple={mutiple}
