@@ -7,7 +7,7 @@ import { FaCartPlus } from "react-icons/fa";
 
 function NavTop() {
   return (
-    <Navbar expand="lg bgcus bsw" sticky='top' >
+    <Navbar expand="lg bgcus bsw sticky-lg-top"  >
       <Container fluid>
         <Navbar.Brand ><Link to='/' className='text-decoration-none '><h1 className='custext bg-primary'>Rainbow Garden</h1 ></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
