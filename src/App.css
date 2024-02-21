@@ -8,6 +8,7 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+ 
 }
 .contact label{
   display: inline-block;
@@ -221,7 +222,7 @@ font-family: 'Roboto', sans-serif;
 }
 .sidebar{
   width: 350px;
-  height:280px;
+  height:320px;
   
 }
 @media screen and (max-width:768px) {
@@ -237,7 +238,47 @@ font-family: 'Roboto', sans-serif;
   .formsupcont{
     width: 90%;
   }
- 
+  .cont1{
+    min-height: 130vh;
+  }
+ .h{
+  min-height: 280vh;
+ }
+ .sidebar{
+  position: sticky;
+  z-index: 1;
+  left: 0;
+  top:55%;
+ }
+ .cart{
+  width:350px;
+ }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+  .h2fst{
+    font-size: 1.1em;
+  }
+  .mxcus{
+    margin: 0;
+  }
+  .formcont{
+    width: 90%;
+  }
+  .formsupcont{
+    width: 90%;
+  }
+  .cont1{
+    min-height: 100vh;
+  }
+ .h{
+  height: 180vh;
+ }
+ .cart{
+  width: 350px;
+ }
+ .cart img{
+
+ }
 }
 
 
