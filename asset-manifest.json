@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.deceec90.css",
-    "main.js": "/static/js/main.c2ecdb57.js",
-    "static/js/592.cfe6577b.chunk.js": "/static/js/592.cfe6577b.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.deceec90.css.map": "/static/css/main.deceec90.css.map",
-    "main.c2ecdb57.js.map": "/static/js/main.c2ecdb57.js.map",
-    "592.cfe6577b.chunk.js.map": "/static/js/592.cfe6577b.chunk.js.map"
+    "main.css": "/rainboe-react/static/css/main.deceec90.css",
+    "main.js": "/rainboe-react/static/js/main.31273ee6.js",
+    "static/js/592.cfe6577b.chunk.js": "/rainboe-react/static/js/592.cfe6577b.chunk.js",
+    "static/media/logo.svg": "/rainboe-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rainboe-react/index.html",
+    "main.deceec90.css.map": "/rainboe-react/static/css/main.deceec90.css.map",
+    "main.31273ee6.js.map": "/rainboe-react/static/js/main.31273ee6.js.map",
+    "592.cfe6577b.chunk.js.map": "/rainboe-react/static/js/592.cfe6577b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.deceec90.css",
-    "static/js/main.c2ecdb57.js"
+    "static/js/main.31273ee6.js"
   ]
 }
